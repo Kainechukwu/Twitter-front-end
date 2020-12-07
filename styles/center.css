@@ -1,0 +1,196 @@
+.bottomNav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #00334e;
+  border-top: 1px solid #495464;
+  justify-content: space-around;
+}
+
+.bottomTweetBtn {
+  display: none;
+  position: fixed;
+  bottom: 10%;
+  right: 7%;
+}
+
+.Center {
+  /* position: relative;
+  width: 44.5%;
+  margin-left: 14px;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: #495464;
+  left: 271px; */
+  position: relative;
+  width: 44.5%;
+  /* margin-left: 14px; */
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: #495464;
+  left: 23.2%;
+}
+
+.CenterGapDiv {
+  background-color: #214252;
+  height: 10px;
+}
+
+.CenterHeader {
+  position: sticky;
+  width: 99.7%;
+  display: flex;
+  border-bottom: solid;
+  border-color: #495464;
+  border-width: 0.2px;
+  z-index: 1;
+  background-color: #00334e;
+  cursor: pointer;
+  /* border-left: 1px solid #495464; */
+  left: 23.3%;
+  top: 0;
+  /* bottom: 100%;
+  left: 0;
+  right: 0;
+   */
+}
+
+.CenterHeaderIcon {
+  color: #1fb4d3;
+  width: 6%;
+  height: 10%;
+  padding: 8px 0 3px 12px;
+  margin: 7px 5px 0 5px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.CenterHeaderIcon:hover {
+  background-color: #58707b;
+}
+
+.CenterHeaderText {
+  width: 90%;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.CenterHeaderH3 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.CenterStatusDivI {
+  display: flex;
+  margin: 0px 10px 0 17px;
+}
+
+.CenterStatusDivII {
+  width: 95%;
+  padding: 0 0 0 46px;
+  margin-bottom: 10px;
+}
+
+.ClickedIcon {
+  position: absolute;
+  padding: 5px 10px;
+  top: -8px;
+  left: -9px;
+}
+
+.ClickedIconCount {
+  line-height: 1.6;
+  font-size: 76%;
+}
+
+.ClickedIconCountDiv {
+  padding: 0 1px;
+  left: 30px;
+  bottom: 4px;
+}
+
+.IconCountDiv {
+  width: 70%;
+}
+
+.Status {
+  width: 100%;
+  margin-top: 33px;
+  background-color: #00334e;
+  border: none;
+  font-size: larger;
+  max-width: 100%;
+}
+
+.StatusDiv {
+  margin-top: 8px;
+  width: 90%;
+}
+
+.StatusDPDiv {
+  position: relative;
+  width: 9%;
+  left: 0px;
+  margin: 31px 10px 0 0px;
+}
+
+.StatusIcons {
+  color: rgba(29, 161, 242, 1.00);
+  padding: 8px 10px 5px 10px;
+}
+
+.StatusTweetBtnDiv {
+  /* margin: 0px 0px 0px 188px; */
+  position: relative;
+  left: 40%;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background-color: rgb(29, 161, 242);
+}
+
+.TweetBtnText {
+  font-size: 100%;
+  font-weight: bold;
+  color: white;
+  width: 84%;
+}
+
+.TweetersDiv {
+  margin-top: 10px;
+}
+
+.TweetersDPDiv {
+  width: 9%;
+  position: relative;
+}
+
+.TwitterGreyHandle {
+  margin-left: 5px;
+}
+
+.TwitterBoxDots {
+  right: -2px !important;
+  width: 6.5% !important;
+  margin-left: 0px !important;
+  top: -7px;
+}
+
+/* @media screen and (max-width: 1345px) {
+
+
+  .Center {
+    left: 20.2%;
+  }
+
+  .CenterHeader {
+    left: 20.3%;
+  }
+
+
+} */

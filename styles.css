@@ -1,0 +1,573 @@
+@import "styles/left-nav.css";
+@import "styles/center.css";
+@import "styles/rightside.css";
+
+
+body{
+  background-color: #00334e;
+  /* overflow-x: hidden; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blockDisplay{
+  display: block;
+}
+
+.borderBottom1px{
+  border-bottom: 1px solid #495464;
+}
+
+.BlueEmojiColor{
+  color: rgb(29, 161, 242);
+}
+
+.borderRadius20px{
+  border-radius: 20px;
+}
+
+.borderRadiusInherit{
+  border-radius: inherit;
+}
+
+
+
+
+.everything{
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  min-width: 265px;
+}
+
+.FixedPSN{
+  position: fixed;
+}
+
+.flexDisplay{
+  display: flex;
+}
+
+.fixed {
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+.GeneralBgC{
+    background-color: #00334e;
+}
+
+
+.GreyTxtColor{
+  color: #9ba4b4;
+}
+
+.headicon{
+  padding: 0 20% 5% 21%;
+  /* height: 20%; */
+  /* width: 20%; */
+  /*  */
+}
+
+.leftMargin10px{
+  margin-left: 10px;
+}
+
+.noDisplay{
+  display: none;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.Y-overflow{
+  overflow-y: scroll;
+}
+
+.padding10px{
+  padding: 10px;
+}
+.paddingBottom10px{
+  padding-bottom: 10px;
+}
+
+.RelativePSN{
+  position: relative;
+}
+
+.rightMargin10px{
+  margin-right: 10px;
+}
+
+.RightHeaderTexts{
+  font-size: 120%;
+  font-weight: 900;
+}
+
+.TopMargin10px{
+  margin-top: 10px;
+}
+
+
+
+.WhiteTxtColor{
+  color: white;
+}
+
+.Width89{
+  width: 89%!important;
+}
+.Width100{
+  width: 100%;
+}
+
+
+@media screen and (min-width: 1300px) {
+  .MessagesDiv {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+
+
+  .leftSide {
+    width: 21.5%;
+  }
+
+  .Center {
+    left: 20.2%;
+  }
+
+  /* .CenterHeader {
+    left: 20.3%;
+  } */
+
+  .RightSide {
+    left: 20.2%;
+  }
+
+  .StatusTweetBtnDiv {
+    left: 37%;
+  }
+
+  .MessagesDiv {
+    right: 3%;
+  }
+
+  .MessageIconsDiv {
+    left: 49%;
+  }
+}
+
+
+
+@media screen and (max-width: 1207px) {
+  .TrendIconheader {
+    left: 36%;
+  }
+
+}
+
+@media screen and (max-width: 1184px) {
+  .buttonDiv {
+    margin-left: 10px;
+    overflow-x: hidden;
+  }
+
+  .headicon {
+    padding: 0 20% 5% 8%;
+  }
+
+  .FLW {
+    left: 31%;
+  }
+
+}
+
+@media screen and (max-height: 400px) {
+  .leftSide {
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1164px) {
+
+}
+
+@media screen and (max-width: 1164px) {
+
+  .ProfileButton {
+    display: none;
+  }
+
+  .imageDivDisplay {
+    display: block;
+  }
+
+  .TBIDiv {
+    width: fit-content;
+    display: block;
+  }
+
+  .TH6 {
+    display: none;;
+  }
+  .TweetBtnText {
+
+      width: 39px;
+  }
+
+  .leftIconText {
+    display: none;
+  }
+
+  .leftSide {
+    width: 8.5%;
+    margin-left: 36px;
+  }
+
+  .Center {
+    left: 11.7%;
+    width: 50.5%;
+  }
+
+  /* .CenterHeader {
+    left: 11.8%;
+    width: 50.3%;
+  } */
+
+
+  .lt {
+
+    left: 11%;
+  }
+
+
+
+  .RightSide {
+    left: 12.2%;
+    width: 34%;
+  }
+
+  .StatusTweetBtnDiv {
+    left: 43%;
+  }
+
+  /* .Search {
+    width: 31.1%;
+  } */
+
+  .MessagesDiv {
+    right: 4%;
+  }
+
+  .MessageIconsDiv {
+    left: 45%;
+  }
+
+  .TrendIconheader {
+    left: 37%;
+  }
+}
+
+@media screen and (max-width: 1092px) {
+  .StatusTweetBtnDiv {
+    left: 39%;
+   }
+}
+
+@media screen and (max-width: 1057px) {
+  .leftSide {
+    margin-left: 23px;
+  }
+
+  .TBI {
+    right: 47%;
+    position: relative;
+  }
+
+  .Center {
+    left: 10.7%;
+    width: 58.5%;
+  }
+
+  /* .CenterHeader {
+    left: 10.8%;
+    width: 58.3%;
+  } */
+
+  .StatusTweetBtnDiv {
+    left: 45%;
+  }
+
+  .RightSide {
+    left: 9.2%;
+    width: 31%;
+  }
+
+  .FLW {
+    left: 15%;
+  }
+
+  .dotsDiv {
+    margin-left: 70.3%;
+  }
+
+  .TrendIconheader {
+    left: 27%;
+  }
+
+  /* .Search {
+    width: 28.1%;
+  } */
+
+  .MessagesDiv {
+    right: 1%;
+  }
+
+  .MessageIconsDiv {
+    left: 39%;
+  }
+
+  .SearchBox {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 1016px) {
+  .TrendIconheader {
+    left: 24%;
+  }
+
+  .SearchBox {
+    width: 74%;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .TrendIconheader {
+    left: 21%;
+  }
+
+  .StatusTweetBtnDiv {
+    left: 41%;
+  }
+
+  .MessageIconsDiv {
+    left: 33%;
+  }
+
+  .FLW {
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .RightSide {
+    left: 8.2%;
+    width: 31%;
+  }
+
+  .TrendIconheader {
+    left: 17%;
+  }
+
+  .StatusTweetBtnDiv {
+    left: 38%;
+  }
+
+
+}
+
+@media screen and (max-width: 895px) {
+  .RightSide {
+    display: none;
+  }
+
+  .MessagesDiv {
+    display: none;
+  }
+
+  .StatusTweetBtnDiv {
+    left: 40%;
+  }
+
+  .leftSide {
+    width: 10%;
+    margin-left: 84px;
+  }
+
+  .Center {
+    left: 19.7%;
+    width: 62.5%;
+  }
+
+  /* .CenterHeader {
+    left: 19.8%;
+    width: 62.3%;
+  } */
+
+  /* .CenterHeader {
+    left: 19.9%;
+    width: 62.2%;
+  } */
+}
+
+@media screen and (max-width: 850px) {
+  .Center {
+    left: 16.7%;
+    width: 66.5%;
+  }
+
+  /* .CenterHeader {
+    left: 16.9%;
+    width: 66.2%;
+  } */
+
+  .StatusTweetBtnDiv {
+    left: 36%;
+  }
+
+  .leftSide {
+    width: 10%;
+    margin-left: 56px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .Center {
+    left: 16.7%;
+    width: 69.5%;
+  }
+
+  /* .CenterHeader {
+    left: 16.9%;
+    width: 69.1%;
+  } */
+
+
+}
+
+@media screen and (max-width: 730px) {
+  .leftSide {
+    width: 12%;
+    margin-left: 14px;
+  }
+
+  .Center {
+    left: 14%;
+    width: 72.5%;
+  }
+
+  /* .CenterHeader {
+    left: 14.2%;
+    width: 72%;
+  } */
+}
+
+@media screen and (max-width: 700px) {
+  /* .StatusTweetBtnDiv {
+    left: 33%;
+  } */
+
+  .Center {
+    left: 14%;
+    width: 81.5%;
+  }
+
+  /* .CenterHeader {
+    left: 14.2%;
+    width: 81%;
+  } */
+}
+
+@media screen and (max-width: 686px) {
+  .removeIcons{
+    display: none;
+  }
+
+  .StatusTweetBtnDiv {
+    left: 53%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .leftSide {
+    width: 12%;
+    margin-left: 3px;
+  }
+
+  .Center {
+    left: 12.5%;
+    width: 87.5%;
+  }
+
+  .CenterHeaderIcon {
+    position: relative;
+    right: 5%;
+  }
+
+  .dotsDiv {
+    left: 89%;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .StatusTweetBtnDiv {
+    left: 46%;
+  }
+
+  .buttonDiv {
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .StatusTweetBtnDiv {
+      left: 42%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .StatusTweetBtnDiv {
+      left: 39%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .StatusTweetBtnDiv {
+      left: 35%;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .leftSide {
+    display: none;
+  }
+
+  .statusChange {
+    display: none;
+  }
+
+  .Center {
+    left: 0%;
+    width: 100%;
+  }
+
+  .bottomNav {
+    display: flex;
+  }
+
+  .bottomTweetBtn {
+    display: block;
+  }
+}

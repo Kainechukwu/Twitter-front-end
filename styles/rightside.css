@@ -1,0 +1,357 @@
+.ArrowAndEnvelope{
+  border-radius: 40px
+}
+
+.ArrowAndEnvelope:hover{
+  background-color: #58707b;
+}
+
+.Credits{
+  margin: 10px 16px 0 20px;
+  padding: 10px;
+}
+
+.CreditItems{
+  font-size: 13px;
+  color: rgb(136, 153, 166);
+  margin-right: 5px;
+}
+
+.CreditItemsLink{
+  color: rgb(136, 153, 166);
+}
+
+.CreditItemsLinkI{
+  width: 80%;
+}
+
+.CreditItemsLink:hover{
+  color: rgb(136, 153, 166);
+}
+
+.dots {
+  color: #9ba4b4;
+  padding-top: 1px;
+}
+
+.dotsDiv{
+  position: absolute;
+  margin-left: 72.3%;
+  width: 29px;
+  padding: 4px 2px 4px 7px;
+  margin-top: 3px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #214252;
+
+  /* position: relative;
+margin-left: 22.3%;
+width: 11%;
+padding: 5px 2px 5px 9.5px;
+margin-top: 3px;
+border-radius: 40px;
+cursor: pointer;
+left: 110px;
+bottom: 10px; */
+}
+
+.dotsDiv:hover{
+  background-color: #58707b;
+
+}
+
+.DPDiv{
+  position: relative;
+  width: 15%;
+  left: 4px;
+  margin-right: 10px;
+}
+
+.DP{
+  width: 100%;
+}
+
+.FLW{
+  position: relative;
+  top: 5px;
+  border: 1px solid;
+  border-color: rgb(29, 161, 242);
+  width: 79px;
+  height: 28px;
+  padding-left: 6px;
+  border-radius: 50px;
+  left: 33%;
+}
+.FLWText{
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 1px;
+  margin: 0 10px 0 8px;
+  color: rgb(29, 161, 242);
+  font-weight: 600;
+}
+
+.innerMessageItemsDiv{
+  left: 5px;
+  width: 80%;
+}
+
+.innerMsgSpan{
+  top: -3px;
+}
+
+.innerTopMessageDiv{
+  padding: 6px 14px 6px;
+  border-bottom: 1px solid #495464;
+}
+
+.MagnifyingGlass {
+  margin-top: 7px;
+  padding: 10px;
+  width: 40px;
+  height: 39px;
+  padding-bottom: 10px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: #214252;
+  padding-top: 13px;
+  padding-left: 14px;
+  color: #bbbfca;
+}
+
+.MessageArrow{
+  padding: 10px 12px;
+}
+
+.MessagesDate{
+  left: 21%;
+}
+
+.MessagesDiv{
+  bottom: 0;
+  right: 2%;
+  width: 29%;
+
+  /* padding: 8px 15px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #01273c;
+  box-shadow: 0 0 1rem rgba(255,255,255,.25);
+}
+
+.MessageIconsDiv{
+  left: 50%;
+}
+
+.MsgEmail{
+  padding: 3px 0 0 5px;
+}
+
+::placeholder {
+  color: #9ba4b4;
+}
+
+.RightSide {
+  /* position: relative;
+  width: 34%;
+  left: 258px; */
+
+  position: relative;
+  width: 31%;
+  left: 23%;
+}
+
+.RightItems {
+  /* width: 85%;
+  height: 100%;
+  margin-left: 25px; */
+
+  width: 93.5%;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.Search {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  background-color: #00334e;
+  top: 0;
+  z-index: 1;
+}
+
+.SearchBox {
+  width: 77%;
+}
+
+.SearchIcon {
+  margin-left: 20px;
+}
+
+.Searcher {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #214252;
+  border: none;
+}
+
+.SettingsIcon {
+  color: #1fb4d3;
+  /* margin: 7px 0 0 140px;
+  padding: 10px */
+}
+
+.show{
+  display: block;
+}
+
+.ShowText{
+  color: #2793ff;
+}
+
+
+
+.Trends{
+  margin-top: 22px;
+}
+
+.TrendsBottom{
+  /* background-color: #214252; */
+  width: 90.5%;
+  margin-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+
+.TrendsHeaderDiv {
+  display: flex;
+  width: 90.5%;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #214252;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 1px solid;
+  border-color: #495464;
+}
+
+.TrendsHeader {
+  font-size: 120%;
+  font-weight: 900;
+  color: white;
+  padding: 0px 0 2px 12px;
+  margin-top: 10px;
+  margin-left: 3px;
+
+}
+
+.TrendIconheader {
+  width: 33px;
+  height: 30%;
+  margin-top: 5px;
+  /* margin-left: 123px; */
+  position: relative;
+  left: 39%;
+  padding: 6px 1px 5px 6px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.TrendIconheader:hover {
+  background-color: #58707b;
+}
+
+.TrendItems {
+  padding: 10px 15px 8px;
+  border-bottom: 1px solid;
+  border-color: #495464;
+}
+
+.Trending {
+  color: #9ba4b4;
+  font-size: 80%;
+}
+
+.TrendingDiv {
+  display: flex;
+  /* width: 90.5%;
+  margin-left: 20px;
+  background-color: #214252; */
+}
+
+
+
+.TrendingHashtagsDiv {
+  background-color: #214252;
+}
+
+.TrendingHashtags {
+  margin-bottom: 0;
+  color: white;
+  font-size: 100%;
+  font-weight: 700;
+}
+
+.TrendItemsDiv {
+  background-color: #214252;
+  width: 90.5%;
+  margin-left: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.TrendingNumber {
+  background-color: #214252;
+  padding-top: 3px;
+}
+
+.WTF{
+  margin-top: 15px;
+}
+
+.WTFDp {
+  min-width: 31px;
+}
+
+.WTFI{
+  margin: 2px 0;
+  display: flex;
+  width: 86%;
+}
+
+.WTFItems{
+  display: flex;
+}
+
+.WTFItemsDiv2{
+  background-color: #214252;
+  margin-left: 20px;
+  margin-right: 16px;
+  padding: 10px;
+  border-bottom: 1px solid #495464;
+}
+
+.WTFItemsDiv2Bottom{
+  background-color: #214252;
+  margin-left: 20px;
+  margin-right: 16px;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
+
+/* @media screen and (max-width: 1345px) {
+
+  .RightSide {
+    left: 20.2%;
+  } */
+} */

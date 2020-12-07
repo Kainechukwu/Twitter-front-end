@@ -1,0 +1,217 @@
+
+
+h5 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+h5 :hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+.angle{
+  color: white;
+}
+
+.btn{
+  border: none;
+  border-radius: 40px;
+}
+
+.buttonDiv{
+  /* display: table; */
+  margin-left: 20%;
+  padding-right: 10px;
+}
+
+.btnicon{
+  padding-right: 15px;
+}
+
+
+.Bigbird{
+  padding: 2px 5px 2px 11px;
+}
+
+
+.HeadSocial-icon{
+
+  color: white;
+}
+
+.imageDiv{
+  width: 20%;
+  height: 100%;
+}
+
+.imageDivDisplay {
+  display: none;
+  width: 32px;
+}
+
+.leftIconText {
+  margin: 0 10px;
+}
+
+.leftIconText :hover{
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+.leftTweet{
+  margin: 0 auto;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.leftSide{
+   /* width: 24.5%;+/
+                               /* height: 70%; */
+   /*padding: 0;
+   border-right: solid;
+   border-color: #495464;
+   border-width: 0.2px;
+   position: fixed; */
+
+    width: 24.5%;
+    /* height: 70%; */
+  padding: 0;
+  /* border-right: solid; */
+  border-color: #495464;
+  border-width: 0.2px;
+  position: fixed;
+  max-height: 100%;
+  max-width: 325px;
+  /* overflow-x: hidden; */
+}
+
+.leftitemTweet{
+  padding: 7% 5%;
+  margin: 0 auto;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.lt{
+  width: 85%;
+  margin-top: 10px;
+  position: relative;
+  /* margin-left: 40px;
+
+  margin-bottom: 10px;
+  border-radius: 40%;
+  padding: 5px 15px; */
+}
+.leftItems{
+  width: 100%;
+
+  margin: 10px 0 10px;
+}
+
+
+
+.leftItem{
+
+  margin-left: 10%;
+ }
+
+.leftCon{
+
+  color: white;
+  padding-top: 2%;
+}
+
+/* .navLeft{
+  display: flex;
+
+  margin-left: 40px;
+  padding: 4% 10%;
+  background-color: inherit;
+}
+
+.navLeft:hover{
+  background-color: blue;
+  color: red;
+} */
+
+.navitems{
+  align-items: center;
+  flex-direction: row;
+  /* padding: 10px; */
+  width: fit-content;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+  border-radius: 40px;
+}
+
+.navitems2{
+  margin: auto 50px;
+}
+
+.navLink:link {
+  text-decoration: none;
+}
+
+.navLink :hover{
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+.ProfileButton{
+  display: flex;
+}
+
+/* .ProfileIcon{
+  width: 30%;
+} */
+
+.profile-image{
+  width: 80%;
+  margin: auto;
+}
+
+.profile-text{
+  font-size: 80%;
+  font-weight: bold;
+  color: white;
+  margin-right: 3px;
+}
+
+.ProfileDiv{
+  display: flex;
+  padding: 10px;
+  margin-top: 24%;
+}
+
+.TBI {
+
+  position: relative;
+  display: none;
+}
+
+.TBIDiv {
+  width: fit-content;
+  display: none;
+}
+
+.TH6 {
+  margin-bottom: 0px;
+}
+
+/* @media screen and (max-width: 1345px) {
+  .leftSide {
+    width: 21.5%;
+  }
+
+  .Center {
+    left: 20.2%;
+  }
+
+  .CenterHeader {
+    left: 20.3%;
+  }
+
+  .RightSide {
+    left: 20.2%;
+  }
+} */

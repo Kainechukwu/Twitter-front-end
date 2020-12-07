@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Twitter_landing_page</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+  <!-- css stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/0fd1004ca3.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="everything flex-container">
+
+    <!-- Left Div -->
+    <div class="row leftSide">
+
+      <div class="leftItems overflow-auto">
+
+        <div class="container-fluid headicon">
+          <button type="button" class="btn btn-outline-light btn-lg left-buttons Bigbird"><span class="HeadSocial-icon fab fa-twitter fa-lg"></span></button>
+
+        </div>
+        <nav class="left-nav">
+          <div class="buttonDiv">
+
+            <a class = "navLink" href="Home">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="fas fa-house-user btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Home</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="Explore">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="fas fa-hashtag btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Explore</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="Notifications">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="far fa-bell btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Notifications</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="Messages">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="far fa-envelope btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Messages</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="Bookmarks">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="far fa-bookmark btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Bookmarks</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="Lists">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="far fa-list-alt btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Lists</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="Profile">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="far fa-user btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> Profile</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class = "navLink" href="More">
+              <div class="">
+                <div class = "flexDisplay navitems padding10px">
+                  <div class="leftIcons">
+                    <span class="fas fa-ellipsis-h btnicon noPadding"></span>
+                  </div>
+                  <div class="leftIconText">
+                    <h5> More</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+
+
+            <a href="Tweet">
+              <div>
+                <button class="btn btn-info  btn-lg lt  navitems TweetBtnText"><div class="TBIDiv"><i class="fas fa-pen-fancy TBI"></i></div><h6 class= "TH6">Tweet</h6></button>
+              </div>
+            </a>
+
+            <div class="flex-container ProfileDiv">
+              <button type="button" class="btn btn-outline-light btn-lg left-buttons navitems ProfileButton">
+                <div class="imageDiv">
+                  <img class="profile-image" src="images/kaine.d.png" alt="Profile-image">
+                </div>
+                <div class="Profile-textDiv">
+                  <h3 class="profile-text">god-Mode</h3>
+                </div>
+                <div class="ProfileIcon">
+                  <i class="fas fa-eye"></i>
+                  <!-- <i class="fas fa-angle-down"></i> -->
+                  <!-- <span class="far fa-user btnicon"></span> -->
+
+                </div>
+              </button>
+
+              <div class="imageDiv imageDivDisplay">
+                <img class="profile-image" src="images/kaine.d.png" alt="Profile-image">
+              </div>
+
+            </div>
+          </div>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Center Div -->
+    <div class="Center">
+      <div class="CenterHeader">
+        <div class="CenterHeaderText">
+          <h3 class="CenterHeaderH3">Home</h3>
+        </div>
+        <div class="CenterHeaderIcon">
+          <i class="fas fa-bolt fa-lg"></i>
+        </div>
+
+      </div>
+
+      <div class="CenterBody">
+
+        <div class="CenterStatusDiv">
+        <div class="statusChange">
+          <div class="CenterStatusDivI">
+
+            <div class="StatusDPDiv">
+              <a href="">
+                <img class="DP" src="images/kaine.d.png" alt="display-image">
+              </a>
+            </div>
+
+
+            <div class="StatusDiv">
+              <input class="Status" type="text" name="twitterStatus" placeholder="What's happening?">
+            </div>
+          </div>
+          <div class="CenterStatusDivI CenterStatusDivII">
+            <div class="StatusIcons">
+              <i class="far fa-image fa-lg"></i>
+            </div>
+
+            <div class="StatusIcons">
+              <i class="far fa-image fa-lg"></i>
+            </div>
+
+            <div class="StatusIcons">
+              <i class="far fa-image fa-lg"></i>
+            </div>
+
+            <div class="StatusIcons removeIcons">
+              <i class="far fa-image fa-lg"></i>
+            </div>
+
+            <div class="StatusIcons removeIcons">
+              <i class="far fa-image fa-lg"></i>
+            </div>
+
+
+            <div class="StatusTweetBtnDiv" role="button">
+              <span class="navitems TweetBtnText">Tweet</span>
+            </div>
+
+          </div>
+
+          <div class="CenterGapDiv">
+
+          </div>
+        </div>
+
+
+
+
+
+
+          <div class="borderBottom1px">
+
+
+
+            <div class="TweetersDiv WTFItems CenterStatusDivI paddingBottom10px ">
+              <div class="TweetersDPDiv">
+                <a href="">
+                  <img class="DP" src="images/kaine.d.png" alt="display-image">
+                </a>
+              </div>
+              <div class="TweetersBox leftMargin10px Width100">
+                <div class="TweetersHandleDiv WTFItems RelativePSN">
+                  <span class="WhiteTxtColor">Freshgod</span>
+                  <span class="GreyTxtColor TwitterGreyHandle">@Freshie</span>
+                  <span class="GreyTxtColor TwitterGreyHandle">.</span>
+                  <span class="GreyTxtColor TwitterGreyHandle">37m</span>
+
+
+                  <div class="dotsDiv TwitterBoxDots GeneralBgC">
+                    <i class="fas fa-ellipsis-h dots"></i>
+                  </div>
+                </div>
+
+                <div class="">
+                  <span class="WhiteTxtColor">Biden plans to push for the U.S.'s most progressive climate policies ever, starting with rejoining the Paris Agreement</span>
+                </div>
+
+                <div class="TopMargin10px">
+                  <div class="rightMargin10px borderRadius20px">
+                    <img class="Width100 borderRadiusInherit" src="images/joeBiden.jpg" alt="Joe Biden">
+                  </div>
+
+                </div>
+
+                <div class="TopMargin10px flexDisplay RelativePSN">
+                  <div class="RelativePSN flexDisplay IconCountDiv rightMargin10px">
+                    <div class="ClickedIcon">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+                    <div class="RelativePSN ClickedIconCountDiv">
+                      <span class="GreyTxtColor ClickedIconCount">35</span>
+                    </div>
+                  </div>
+
+                  <div class="RelativePSN flexDisplay IconCountDiv rightMargin10px">
+                    <div class="ClickedIcon leftMargin10px">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+                    <div class="RelativePSN ClickedIconCountDiv leftMargin10px">
+                      <span class="GreyTxtColor ClickedIconCount">35</span>
+                    </div>
+                  </div>
+
+                  <div class="RelativePSN flexDisplay IconCountDiv rightMargin10px">
+                    <div class="ClickedIcon leftMargin10px">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+                    <div class="RelativePSN ClickedIconCountDiv leftMargin10px">
+                      <span class="GreyTxtColor ClickedIconCount">35</span>
+                    </div>
+                  </div>
+
+                  <div class="RelativePSN flexDisplay IconCountDiv">
+                    <div class="ClickedIcon leftMargin10px">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!--  -->
+
+
+
+
+          <div class="borderBottom1px">
+
+
+
+            <div class="TweetersDiv WTFItems CenterStatusDivI paddingBottom10px ">
+              <div class="TweetersDPDiv">
+                <a href="">
+                  <img class="DP" src="images/kaine.d.png" alt="display-image">
+                </a>
+              </div>
+              <div class="TweetersBox leftMargin10px Width100">
+                <div class="TweetersHandleDiv WTFItems RelativePSN">
+                  <span class="WhiteTxtColor">Freshgod</span>
+                  <span class="GreyTxtColor TwitterGreyHandle">@Freshie</span>
+                  <span class="GreyTxtColor TwitterGreyHandle">.</span>
+                  <span class="GreyTxtColor TwitterGreyHandle">37m</span>
+
+
+                  <div class="dotsDiv TwitterBoxDots GeneralBgC">
+                    <i class="fas fa-ellipsis-h dots"></i>
+                  </div>
+                </div>
+
+                <div class="">
+                  <span class="WhiteTxtColor">Biden plans to push for the U.S.'s most progressive climate policies ever, starting with rejoining the Paris Agreement</span>
+                </div>
+
+                <div class="TopMargin10px">
+                  <div class="rightMargin10px borderRadius20px">
+                    <img class="Width100 borderRadiusInherit" src="images/joeBiden.jpg" alt="Joe Biden">
+                  </div>
+
+                </div>
+
+                <div class="TopMargin10px flexDisplay RelativePSN">
+                  <div class="RelativePSN flexDisplay IconCountDiv rightMargin10px">
+                    <div class="ClickedIcon">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+                    <div class="RelativePSN ClickedIconCountDiv">
+                      <span class="GreyTxtColor ClickedIconCount">35</span>
+                    </div>
+                  </div>
+
+                  <div class="RelativePSN flexDisplay IconCountDiv rightMargin10px">
+                    <div class="ClickedIcon leftMargin10px">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+                    <div class="RelativePSN ClickedIconCountDiv leftMargin10px">
+                      <span class="GreyTxtColor ClickedIconCount">35</span>
+                    </div>
+                  </div>
+
+                  <div class="RelativePSN flexDisplay IconCountDiv rightMargin10px">
+                    <div class="ClickedIcon leftMargin10px">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+                    <div class="RelativePSN ClickedIconCountDiv leftMargin10px">
+                      <span class="GreyTxtColor ClickedIconCount">35</span>
+                    </div>
+                  </div>
+
+                  <div class="RelativePSN flexDisplay IconCountDiv">
+                    <div class="ClickedIcon leftMargin10px">
+                      <i class="far fa-comment fa-md GreyTxtColor "></i>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Right Div -->
+    <div class="RightSide">
+      <div class="RightItems">
+        <div class="Search">
+          <div class="SearchIcon">
+            <i class="fas fa-search fa-lg MagnifyingGlass"> </i>
+          </div>
+          <div class="SearchBox">
+            <input class="Searcher" type="text" name="twitterSearch" placeholder="Search Twitter">
+          </div>
+        </div>
+
+        <div class="Trends">
+          <div class="TrendsHeaderDiv Width89">
+            <div class="TrendTextHeaders">
+              <h2 class="TrendsHeader">Trends for you</h2>
+            </div>
+            <div class="TrendIconheader">
+              <i class="fas fa-cog fa-lg SettingsIcon"></i>
+            </div>
+
+          </div>
+
+          <div class="TrendItemsDiv Width89">
+            <div class="TrendItemsDiv2">
+              <div class="dotsDiv">
+                <i class="fas fa-ellipsis-h dots"></i>
+              </div>
+              <div class="TrendItems">
+
+                <div class="TrendingDiv">
+                  <span class="Trending">Football . Trending</span>
+
+
+                </div>
+                <div class="TrendingHashtagsDiv">
+                  <h2 class="TrendingHashtags">GOAT</h2>
+                </div>
+                <div class="TrendingNumber">
+                  <span class="Trending">90.6K Tweets</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="TrendItemsDiv2">
+              <div class="dotsDiv">
+                <i class="fas fa-ellipsis-h dots"></i>
+              </div>
+              <div class="TrendItems">
+
+                <div class="TrendingDiv">
+                  <span class="Trending">Football . Trending</span>
+
+
+                </div>
+                <div class="TrendingHashtagsDiv">
+                  <h2 class="TrendingHashtags">GOAT</h2>
+                </div>
+                <div class="TrendingNumber">
+                  <span class="Trending">90.6K Tweets</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="TrendItemsDiv2">
+              <div class="dotsDiv">
+                <i class="fas fa-ellipsis-h dots"></i>
+              </div>
+              <div class="TrendItems">
+
+                <div class="TrendingDiv">
+                  <span class="Trending">Football . Trending</span>
+
+
+                </div>
+                <div class="TrendingHashtagsDiv">
+                  <h2 class="TrendingHashtags">GOAT</h2>
+                </div>
+                <div class="TrendingNumber">
+                  <span class="Trending">90.6K Tweets</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="TrendItemsDiv2">
+              <div class="dotsDiv">
+                <i class="fas fa-ellipsis-h dots"></i>
+              </div>
+              <div class="TrendItems">
+
+                <div class="TrendingDiv">
+                  <span class="Trending">Football . Trending</span>
+
+
+                </div>
+                <div class="TrendingHashtagsDiv">
+                  <h2 class="TrendingHashtags">GOAT</h2>
+                </div>
+                <div class="TrendingNumber">
+                  <span class="Trending">90.6K Tweets</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="TrendItemsDiv2">
+              <div class="dotsDiv">
+                <i class="fas fa-ellipsis-h dots"></i>
+              </div>
+              <div class="TrendItems">
+
+                <div class="TrendingDiv">
+                  <span class="Trending">Football . Trending</span>
+
+
+                </div>
+                <div class="TrendingHashtagsDiv">
+                  <h2 class="TrendingHashtags">GOAT</h2>
+                </div>
+                <div class="TrendingNumber">
+                  <span class="Trending">90.6K Tweets</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="TrendsBottom">
+              <div class="ShowMoreDiv">
+                <span class="ShowText">Show more</span>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+
+          <!-- who to follow -->
+          <div class="WTF">
+            <div class="TrendsHeaderDiv Width89">
+              <div class="TrendTextHeaders">
+                <h2 class="TrendsHeader">Who to follow</h2>
+              </div>
+
+
+            </div>
+
+            <div class="WTFItemsDiv">
+              <div class="WTFItemsDiv2 Width89">
+                <div class="WTFItems">
+                  <div class="DPDiv">
+                    <img class="DP WTFDp" src="images/kaine.d.png" alt="display-image">
+                  </div>
+                  <div class="WTFI">
+                    <div>
+                      <h2 class="TrendingHashtags">Kaine</h2>
+                      <span class="Trending">@BisMackayn</span>
+                    </div>
+                    <div class="FLW">
+                      <span class="FLWText">Follow</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="WTFItemsDiv">
+                <div class="WTFItemsDiv2 Width89">
+                  <div class="WTFItems">
+                    <div class="DPDiv">
+                      <img class="DP WTFDp" src="images/kaine.d.png" alt="display-image">
+                    </div>
+                    <div class="WTFI">
+                      <div>
+                        <h2 class="TrendingHashtags">Kaine</h2>
+                        <span class="Trending">@BisMackayn</span>
+                      </div>
+                      <div class="FLW">
+                        <span class="FLWText">Follow</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="WTFItemsDiv">
+                  <div class="WTFItemsDiv2 Width89">
+                    <div class="WTFItems">
+                      <div class="DPDiv">
+                        <img class="DP WTFDp" src="images/kaine.d.png" alt="display-image">
+                      </div>
+                      <div class="WTFI">
+                        <div>
+                          <h2 class="TrendingHashtags">Kaine</h2>
+                          <span class="Trending">@BisMackayn</span>
+                        </div>
+                        <div class="FLW">
+                          <span class="FLWText">Follow</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+
+              </div>
+              <div class="WTFItemsDiv2Bottom Width89">
+                <div class="ShowMoreDiv">
+                  <span class="ShowText">Show more</span>
+                </div>
+              </div>
+
+              <div class="Credits">
+                <a class="CreditItemsLink" href="Terms of Service">
+                  <span class="CreditItems">Terms of Service</span>
+                </a>
+
+                <a class="CreditItemsLink" href="Privacy Policy">
+                  <span class="CreditItems">Privacy Policy</span>
+                </a>
+
+                <a class="CreditItemsLink" href="Cookie Policy">
+                  <span class="CreditItems">Cookie Policy</span>
+                </a>
+
+                <div class="CreditItemsLinkI">
+                  <a class="CreditItemsLink" href="Ads info">
+                    <span class="CreditItems">Ads info</span>
+                  </a>
+
+                  <div class="CreditItems">
+
+                  </div>
+
+                  <span class="CreditItems">© 2020 Twitter, Inc.</span>
+
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Fixed Message Div -->
+    <div class="FixedPSN blockDisplay MessagesDiv GeneralBgC">
+      <div class="innerTopMessageDiv">
+        <div class="flexDisplay">
+
+          <div class="">
+            <span class="WhiteTxtColor RightHeaderTexts">Messages</span>
+          </div>
+          <div class="flexDisplay RelativePSN MessageIconsDiv">
+            <div id="" class = "ArrowAndEnvelope">
+              <i class="far fa-envelope BlueEmojiColor padding10px"></i>
+            </div>
+            <div id="Arrow" class = "ArrowAndEnvelope">
+              <i class="fas fa-angle-double-up BlueEmojiColor MessageArrow"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div id = "msgItemsId" class="MessagesItemsDiv Y-overflow noDisplay">
+        <div class="innerTopMessageDiv">
+          <div class="MessagesrequestDiv">
+            <span class="WhiteTxtColor">Messages Requests</span>
+          </div>
+        </div>
+
+        <div class="innerTopMessageDiv">
+          <div class="MessagesrequestDiv flexDisplay">
+            <div class="DPDiv">
+              <img class="DP" src="images/kaine.d.png" alt="display-image">
+            </div>
+            <div class="blockDisplay RelativePSN innerMessageItemsDiv">
+              <div class="flexDisplay">
+                <span class="WhiteTxtColor">Kainechukwu</span>
+                <span class = "Trending MsgEmail">@kaineBee</span>
+                <span class ="Trending RelativePSN MessagesDate MsgEmail">Nov 21</span>
+              </div>
+
+              <div class="">
+                <span class = "Trending RelativePSN innerMsgSpan">Hope you understand the contents ...</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="innerTopMessageDiv">
+          <div class="MessagesrequestDiv flexDisplay">
+            <div class="DPDiv">
+              <img class="DP" src="images/kaine.d.png" alt="display-image">
+            </div>
+            <div class="blockDisplay RelativePSN innerMessageItemsDiv">
+              <div class="flexDisplay">
+                <span class="WhiteTxtColor">Kainechukwu</span>
+                <span class = "Trending MsgEmail">@kaineBee</span>
+                <span class ="Trending RelativePSN MessagesDate MsgEmail">Nov 21</span>
+              </div>
+
+              <div class="">
+                <span class = "Trending RelativePSN innerMsgSpan">Shared a link</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="innerTopMessageDiv">
+          <div class="MessagesrequestDiv flexDisplay">
+            <div class="DPDiv">
+              <img class="DP" src="images/kaine.d.png" alt="display-image">
+            </div>
+            <div class="blockDisplay RelativePSN innerMessageItemsDiv">
+              <div class="flexDisplay">
+                <span class="WhiteTxtColor">Kainechukwu</span>
+                <span class = "Trending MsgEmail">@kaineBee</span>
+                <span class ="Trending RelativePSN MessagesDate MsgEmail">Nov 21</span>
+              </div>
+
+              <div class="">
+                <span class = "Trending RelativePSN innerMsgSpan">We'll send you the group link when ...</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottomNav">
+      <div class="bottomNavicons">
+        <span class="fas fa-house-user btnicon WhiteTxtColor" aria-hidden="true"></span>
+      </div>
+
+      <div class="bottomNavicons">
+        <span class="fas fa-hashtag btnicon WhiteTxtColor" aria-hidden="true"></span>
+      </div>
+
+      <div class="bottomNavicons">
+        <span class="far fa-bell btnicon WhiteTxtColor" aria-hidden="true"></span>
+      </div>
+
+      <div class="bottomNavicons">
+        <span class="far fa-envelope btnicon WhiteTxtColor" aria-hidden="true"></span>
+      </div>
+    </div>
+
+    <div class = "bottomTweetBtn">
+      <button class="btn btn-info  btn-lg lt  navitems TweetBtnText"><i class="fas fa-pen-fancy TBI"></i></button>
+    </div>
+
+
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
