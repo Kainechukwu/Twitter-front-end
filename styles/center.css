@@ -40,7 +40,7 @@
 
 .CenterHeader {
   position: sticky;
-  width: 99.7%;
+  width: 100%;
   display: flex;
   border-bottom: solid;
   border-color: #495464;
@@ -126,6 +126,10 @@
   border: none;
   font-size: larger;
   max-width: 100%;
+}
+
+.Status:focus {
+  outline: none;
 }
 
 .StatusDiv {

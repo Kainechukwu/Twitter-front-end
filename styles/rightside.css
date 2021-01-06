@@ -201,6 +201,10 @@ bottom: 10px; */
   border: none;
 }
 
+.Searcher:focus {
+  outline: none;
+}
+
 .SettingsIcon {
   color: #1fb4d3;
   /* margin: 7px 0 0 140px;
